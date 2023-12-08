@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#ffd6ff, #ade8f4, #03045e);
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+.heroImg {
+  background-image: url("/tamil2.webp");
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.card {
+  background-color: #fec89a;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border-radius: 2px;
+  border: 2px solid brown;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 320px;
+  height: 150px;
+}
+
+.cardContent {
+  text-align: center;
+  font-weight: bold;
+}
+
+.sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.placetext {
+  text-align: center;
+  display: inline;
+  color: #03045e;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.text {
+  color: #ff7b00;
+}
+
+.textH {
+  padding-top: 20px;
+  color: #457b9d;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.textH2 {
+  margin-top: 10px;
+  color: #1c87c9;
+  font-size: 30px;
+  margin-left: 20px;
+}
